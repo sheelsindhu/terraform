@@ -1,6 +1,8 @@
 variable "aws_region"{
-    type=string
-    default="ap-south-1"
+    type=map
+    default={
+      "region1"="ap-south-1"
+    }
 }
 
 variable "ami_deatils"{
